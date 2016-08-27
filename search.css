@@ -1,0 +1,55 @@
+form {
+  width: 100%;
+  padding: 1em;
+  margin: auto;
+  text-align: center;
+  margin-top: 6%;
+}
+
+form .fields {
+  display: inline-block;
+  height: 3em;
+  line-height: 3em;
+}
+
+#select {
+  background-color: #DFEBED;
+  font-size: 1em;
+  height: 2em;
+  margin-top: 1em;
+  width: 5em;
+  color: darkgray;
+  border-radius: 0.2em 0 0 0.2em;
+  borde: none;
+  border-color: #FFC120;
+  margin-right: -0.313em;
+  padding-left: 1em;
+  padding-top: .3em;
+  padding-bottom: .21em;
+}
+
+#search {
+  font-size: 1.1em;
+  height: 1.59em;
+  width: 18em;
+  margin-right: -0.313em;
+  border-left: none;
+  border-right: none;
+  border-top: 0.063em solid black;
+  border-bottom: 0.063em solid black;
+  border-color: #FFC120;
+}
+
+#submit {
+  font-size: .96em;
+  height: 2em;
+  width: 6em;
+  background-color: #FFC120;
+  text-align: center;
+  line-height: 2em;
+  color: white;
+  text-decoration: none;
+  border-radius: 0 0.2em 0.2em 0;
+  border: none;
+  padding-bottom: 1.99em;
+}
